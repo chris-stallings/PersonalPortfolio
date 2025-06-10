@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
   <div className="container mx-auto">
     <nav className="flex items-center">
-      <Link href="/">Chris Stallings</Link>
-      <Link href="/about">About Me</Link>
-      <Link href="/projects">Projects</Link>
-      <Link href="/resume">Resume</Link>
-      <Link href="/contact">Contact</Link>
+        <button className="btn"><Link href="/">Chris Stallings</Link></button>
+        <button className="btn"><Link href="/about">About Me</Link></button>
+        <button className="btn"><Link href="/projects">Projects</Link></button>
+        <button className="btn"><Link href="/resume">Resume</Link></button>
+        <button className="btn"><Link href="/contact">Contact</Link></button>
     </nav>
   </div>
   )
