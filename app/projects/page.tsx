@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -13,7 +14,7 @@ export default function Projects() {
       <h1 className="text-5xl font-bold">ToDo List</h1>
       <p className="py-6">This is a simple ToDo list that I built using Javascript while taking the CourseCareers software development course.
       </p>
-      <button className="btn btn-xs sm:tn-sm md:btn-md lg:btn-lg xl:btn-xl"><a href="https://github.com/chris-stallings/ToDo-List">View Project on GitHub</a></button>
+      <Link href="https://github.com/chris-stallings/ToDo-List" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">View Project on GitHub</ Link>
     </div>
   </div>
 </div>
@@ -24,11 +25,11 @@ export default function Projects() {
       className="max-w-sm rounded-lg shadow-2xl"
     />
     <div>
-      <h1 className="text-5xl font-bold">Box Office News!</h1>
+      <h1 className="text-5xl font-bold">My Next Project</h1>
       <p className="py-6">
         This is where I place my next project.
       </p>
-      <button className="btn btn-xs sm:tn-sm md:btn-md lg:btn-lg xl:btn-xl"><a href="https://github.com/chris-stallings">View project on GitHub</a></button>
+      <Link className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl" href="https://github.com/chris-stallings">View the project on Github</Link>
     </div>
   </div>
 </div>
